@@ -1,0 +1,10 @@
+from pathlib import Path
+
+DATA_PATH = Path("data")
+
+MIN_FREQ = 5
+EMBED_SIZE = 256
+HIDDEN_SIZE = 256
+NUM_LAYERS = 1
+LEARNING_RATE = 3e-4
+NUM_EPOCHS = 100
